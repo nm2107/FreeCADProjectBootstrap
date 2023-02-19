@@ -16,6 +16,7 @@ eux.
 
 ## Arch
 
+- `imports` : les fichiers importés qui ont servi à dessiner le projet.
 - `model/` : objets 3D (.FCStd), i.e. pièces et assemblages.
     - `.` : placer ici le top-level assembly
     - `GlobalVars.FCStd` : contient les variables globales du projet
