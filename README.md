@@ -16,7 +16,7 @@ eux.
 
 ## Arch
 
-- `imports` : les fichiers importés qui ont servi à dessiner le projet.
+- `imports/` : les fichiers importés qui ont servi à dessiner le projet.
 - `model/` : objets 3D (.FCStd), i.e. pièces et assemblages.
     - `.` : placer ici le top-level assembly
     - `GlobalVars.FCStd` : contient les variables globales du projet
@@ -31,6 +31,7 @@ et y fournir les `.stepZ`, `.dxf` et `.pdf` des pièces du projet (regroupés da
 un même dossier par pièce). Ce dossier sera à distribuer.
     - `Commande.FCStd` : sert à générer un .csv contenant la commande à envoyer
 au client ou au lazeriste (donc à placer dans le dossier à distribuer).
+- `FCProject` : permet [d'importer les variables globales facilement](https://github.com/nm2107/FreeCADMacroImportGlobalVars).
 
 Le nouveau dossier `exports/<project_name>/` peut être distribué sous forme
 d'archive via la commande suivante une fois que son contenu a été commit :
