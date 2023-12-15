@@ -31,7 +31,7 @@ et y fournir les `.stepZ`, `.dxf` et `.pdf` des pièces du projet (regroupés da
 un même dossier par pièce). Ce dossier sera à distribuer.
     - `Commande.FCStd` : sert à générer un .csv contenant la commande à envoyer
 au client ou au lazeriste (donc à placer dans le dossier à distribuer).
-- `FCProject` : permet [d'importer les variables globales facilement](https://github.com/nm2107/FreeCADMacroImportGlobalVars).
+- `FCProject` : permet [d'importer les variables globales facilement](https://github.com/nm2107/FreeCADModImportGlobalVars).
 
 Le nouveau dossier `exports/<project_name>/` peut être distribué sous forme
 d'archive via la commande suivante une fois que son contenu a été commit :
