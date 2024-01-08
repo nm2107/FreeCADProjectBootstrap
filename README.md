@@ -41,3 +41,10 @@ $ cd exports/
 
 $ git archive -o ~/<output_file_name>.zip HEAD <project_name_dir>/
 ```
+
+## Liens
+
+Quelques outils pour améliorer le workflow :
+
+- [FreeCADMacroImportSelectedObjectsIntoActiveBody](https://github.com/nm2107/FreeCADMacroImportSelectedObjectsIntoActiveBody)
+- [FreeCADMacroExportSelectionToDxf](https://github.com/nm2107/FreeCADMacroExportSelectionToDxf)
